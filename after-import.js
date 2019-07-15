@@ -5,6 +5,4 @@ graph.options = {
   thickness: '3px',
 };
 
-setTimeout(() => {
-  graph.draw();
-}, 1000);
+graph.draw = () => console.log(`hello world`)
